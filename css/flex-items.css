@@ -1,0 +1,21 @@
+ul {
+	  display: flex; /*or inline-flex*/
+	  list-style: none;	  
+	  	  	align-items: stretch;
+	   border: 1px solid red;
+	   height: 300px;
+       padding: 0;
+	}
+
+li { 
+	  width: 100px;
+	  height: 100px;
+	  color: white;
+		  background-color: #8cacea;
+		  margin: 8px;
+	}
+
+li:first-of-type {
+    align-self:  flex-end;
+    background-color: red;
+}

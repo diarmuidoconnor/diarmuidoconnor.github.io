@@ -1,0 +1,28 @@
+ul {
+	  display: flex; /*or inline-flex*/
+	  list-style: none;
+	  flex-wrap: wrap;
+	  justify-content: space-around;
+	  /*align-content: flex-end ;*/
+	  	align-items: center;
+	   border: 1px solid red;
+       padding: 0;
+       margin-bottom: 20px;
+	}
+	
+li {
+	  width: 100px;
+		  background-color: #8cacea;
+		  margin: 8px;
+	}
+
+li:not(:first-child) {
+			font-size: 2rem;
+		}
+
+li:nth-child(1) {
+        order: 1;
+    }
+li:nth-child(3) {
+        order: 1;
+    }
